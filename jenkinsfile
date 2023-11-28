@@ -4,6 +4,6 @@ pipeline {
   }
 
   stage("Build project with test execution") {
-    sh "mvn clean package"
+    sh "mvn clean install"
   }
 }
